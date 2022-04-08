@@ -6,3 +6,11 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+interface ImportMetaEnv {
+  VITE_BASE_URL: string;
+  VITE_HTTP_TIMEOUT: number;
+}
+
+
+declare module 'mockjs'

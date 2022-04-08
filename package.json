@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "element-plus": "^2.1.8",
+    "mockjs": "^1.1.0",
     "node-sass": "^7.0.1",
     "pinia": "^2.0.13",
     "sass": "^1.49.11",
