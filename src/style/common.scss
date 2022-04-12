@@ -1,0 +1,155 @@
+
+/*
+变量定义
+使用ky开头，避免冲突
+*/
+//常用边框颜色
+$ky-border-color:#dcdfe6;
+
+
+/*
+定义常用clss样式，也以ky开头
+ */
+.ky-flex{
+  display: flex;
+}
+.ky-flex-center{
+  justify-content: center;
+}
+.ky-flex-align-center{
+  align-items: center;
+}
+.ky-flex-right{
+  justify-content: flex-end;
+}
+
+//margin-xs为5px，margin-sm为10px，margin-md为15px，margin-lg为20px
+.ky-margin-xs{
+  margin: 5px;
+}
+.ky-margin-sm{
+  margin: 10px;
+}
+.ky-margin-md{
+  margin: 15px;
+}
+.ky-margin-lg{
+  margin: 20px;
+}
+//padding-xs为5px，padding-sm为10px，padding-md为15px，padding-lg为20px
+.ky-padding-xs{
+  padding: 5px;
+}
+.ky-padding-sm{
+  padding: 10px;
+}
+.ky-padding-md{
+  padding: 15px;
+}
+.ky-padding-lg{
+  padding: 20px;
+}
+
+.ky-margin-t-xs{
+  margin-top: 5px;
+}
+.ky-margin-t-sm{
+  margin-top: 10px;
+}
+.ky-margin-t-md{
+  margin-top: 15px;
+}
+.ky-margin-t-lg{
+  margin-top: 20px;
+}
+
+.ky-margin-b-xs{
+  margin-bottom: 5px;
+}
+.ky-margin-b-sm{
+  margin-bottom: 10px;
+}
+.ky-margin-b-md{
+  margin-bottom: 15px;
+}
+.ky-margin-b-lg{
+  margin-bottom: 20px;
+}
+
+.ky-margin-l-xs{
+  margin-left: 5px;
+}
+.ky-margin-l-sm{
+  margin-left: 10px;
+}
+.ky-margin-l-md{
+  margin-left: 15px;
+}
+.ky-margin-l-lg{
+  margin-left: 20px;
+}
+
+.ky-margin-r-xs{
+  margin-right: 5px;
+}
+.ky-margin-r-sm{
+  margin-right: 10px;
+}
+.ky-margin-r-md{
+  margin-right: 15px;
+}
+.ky-margin-r-lg{
+  margin-right: 20px;
+}
+
+.ky-padding-t-xs{
+  padding-top: 5px;
+}
+.ky-padding-t-sm{
+  padding-top: 10px;
+}
+.ky-padding-t-md{
+  padding-top: 15px;
+}
+.ky-padding-t-lg{
+  padding-top: 20px;
+}
+
+.ky-padding-b-xs{
+  padding-bottom: 5px;
+}
+.ky-padding-b-sm{
+  padding-bottom: 10px;
+}
+.ky-padding-b-md{
+  padding-bottom: 15px;
+}
+.ky-padding-b-lg{
+  padding-bottom: 20px;
+}
+
+.ky-padding-l-xs{
+  padding-left: 5px;
+}
+.ky-padding-l-sm{
+  padding-left: 10px;
+}
+.ky-padding-l-md{
+  padding-left: 15px;
+}
+.ky-padding-l-lg{
+  padding-left: 20px;
+}
+
+.ky-padding-r-xs{
+  padding-right: 5px;
+}
+.ky-padding-r-sm{
+  padding-right: 10px;
+}
+.ky-padding-r-md{
+  padding-right: 15px;
+}
+.ky-padding-r-lg{
+  padding-right: 20px;
+}

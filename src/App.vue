@@ -1,17 +1,15 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
+  <router-view></router-view>
 </template>
 <script lang="ts" setup>
-import {loginApi} from './api/userApi'
-loginApi({
-  userName:'abc',
-  password:'bcd',
-  code:'123'
-}).then((res) => {
-  console.log(res)
-})
+// import {loginApi} from './api/userApi'
+// loginApi({
+//   userName:'abc',
+//   password:'bcd',
+//   code:'123'
+// }).then((res) => {
+//   console.log(res)
+// })
 
 </script>
 

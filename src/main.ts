@@ -6,10 +6,10 @@ import {mockXHR} from "./mock";
 
 const pinia = createPinia();
 // dev模式开启moack
-if(import.meta.env.MODE === 'development'){
-    console.log('start mock')
-    mockXHR()
-}
+// if(import.meta.env.MODE === 'development'){
+//     console.log('start mock')
+//     mockXHR()
+// }
 const app = createApp(App);
 app.use(router);
 app.use(pinia);

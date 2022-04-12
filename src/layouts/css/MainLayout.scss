@@ -1,0 +1,33 @@
+
+.common-layout,.el-container{
+  height: 100%;
+}
+
+
+.el-aside{
+  //background-color: aqua;
+  //设置收缩的时候，缓慢的收缩
+  transition: width 0.2s;
+  border-right: solid 1px $ky-border-color;
+}
+
+
+.el-menu{
+  //height: 100%;
+  border-right:0;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
+
+.header-bg{
+  height: 100%;
+  //border-bottom: 1px solid $ky-border-color;
+  //background-color: #00a0e9;
+}
+
+.el-main{
+  padding-top: 0;
+}

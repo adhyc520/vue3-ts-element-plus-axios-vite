@@ -15,6 +15,10 @@ export default defineConfig({
             resolvers: [ElementPlusResolver()],
         }),
     ],
+    server:{
+        port: 3000,
+        open: true
+    },
     css: {
         preprocessorOptions: {
             scss: {
